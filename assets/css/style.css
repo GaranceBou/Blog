@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kanit", sans-serif;
+  background-color: #cabac7;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  height: 90px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+main {
+  margin-top: 90px;
+}
+
+main > section {
+  background-color: white;
+  border-radius: 10px;
+  height: 400px;
+}
+
+.title img {
+  width: 70px;
+  height: 70px;
+  flex: 1;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  font-size: 17px;
+}
+
+button {
+  font-family: "Kanit", sans-serif;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-size: 17px;
+  padding: 8px 13px;
+  border-radius: 20px;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.links a {
+  background-color: white;
+  padding: 10px;
+}
+
+.links a:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  background-color: black;
+  padding: 10px;
+  color: white;
+  border-radius: 20px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+main img {
+  width: 500px;
+  height: 350px;
+  margin-left: 40px;
+  border-radius: 5px;
+  filter: drop-shadow(0 0 0.75rem rgb(228, 185, 194));
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 50px;
+  text-shadow: rgb(230, 178, 211) 2px 0 10px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  padding-left: 25px;
+  padding-right: 20px;
+  margin-top: 70px;
+  justify-content: flex-end;
+}
+
+footer {
+  padding-top: 70px;
+  width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer p {
+  color: white;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
